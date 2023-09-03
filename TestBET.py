@@ -23,7 +23,6 @@ class TestBETNode(unittest.TestCase):
         expected_str = '(A*(2-(3+4)))'
         self.assertEqual(repr(root), expected_str)
 
-    # TODO: Add test cases below. Repr is provided for you.
     def test_evaluate_tree1(self):
         r"""
         Tree with string repr
